@@ -1,0 +1,284 @@
+﻿@font-face {
+    font-family: 'GE_Flow_Regular';
+    src: url('../fonts/GE_Flow_Regular.eot');
+    src: local('ÃƒÂ¢Ã‹Å“Ã‚Âº'), url('../fonts/GE_Flow_Regular.woff') format('woff'), url('../fonts/GE_Flow_Regular.ttf') format('truetype'), url('../fonts/GE_Flow_Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tooltip {
+    font-family: 'GE_Flow_Regular';
+}
+
+a:link, .btn {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+
+    .inline-block {
+        float: none;
+        display: inline-block;
+        margin: 0 -2px;
+    }
+}
+
+
+html {
+    direction: rtl;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'GE_Flow_Regular' !important;
+    color: #373737;
+}
+
+
+@media (min-width: 768px) {
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: right;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-13, .col-md-14 {
+        float: right;
+    }
+}
+
+
+
+.header-content{padding: 15px; cursor: pointer;}
+
+/*.burger-menu{font-size:30px;cursor:pointer;margin-top: 10px;display: inline-block;
+}*/
+.burger-menu{display:inline-block;}
+.burger-menu div{
+     width: 25px;
+    height: 3px;
+    background-color: #b07c28;
+    margin: 5px 0;
+    position: relative;
+    top: 8px;
+ 
+   
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.logomoi{max-width:190px;margin-right:10px;display:inline-block}
+.sidebar-left a{       display: inline-block;
+    padding: 0px 5px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #b07c28;}
+.sidebar-left a:hover{text-decoration:none}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  text-align: right;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: #b07c28;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 20px;
+    top: 40px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.user-icon{ padding-left:5px;padding-right:5px;    font-size: 28px;}
+.caretdown{margin-right:20px;color: #949494;}
+.remainder-date-title{    background-color: #b07c28;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 13px;}
+.remainder-date-desc{background-color:#353535;height:60px;}
+.img-certificate {
+       float: left;
+    max-width: 85px;
+  
+    position: relative;
+   top: -75px;
+    left: 40px;
+}
+
+.nav-tabs>li>a{padding:40px;background-color:#fff}
+.nav-tabs{border-bottom:0px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border:0px;}
+.nav-tabs>li{float:right;}
+.logo-tab{max-width:70px;}
+.contents-tabs .number{       font-size: 25px;
+    color: #353535;
+    margin-bottom: 5px;
+    display: inline-block;}
+.contents-tabs .title{color: #a8a7a7; font-size: 16px;}
+.nav-tabs>li>a.item2{border-bottom: 6px solid #f47224;}
+.nav-tabs>li>a.item3{border-bottom: 6px solid #11b0c6;}
+.nav-tabs>li>a.item1{border-bottom: 6px solid #e0b63e;}
+.tabs-container{background-color: #eaeaea;    padding: 15px;}
+.user-information{    background-color: #fff;    margin-top: 20px;
+    padding: 0px 15px;}
+.nav-tabs{padding:0px;    margin-top: 20px;}
+.date-info .date{    font-size: 15px;
+    color: #9c9c9c;
+    font-weight: bold;
+    position: relative;
+    top: 75px;
+    text-align: center;
+    display: block;}
+.details-info{    border-right: 3px solid #e0b63e;}
+.details-info h3{    margin: 10px 0;font-size: 22px;}
+.section-name{    font-size: 18px;
+    color: #9c9c9c;
+    margin-bottom: 5px;
+    display: inline-block;}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border-bottom:6px solid #b07c28;transition:all .4s ease-in-out;background-color:#d0d0d0}
+.nav-tabs>li.active a::after, .nav-tabs>li.active a:focus::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #b07c28;
+    position: absolute;
+    bottom: -20px;
+    right: 50%;
+}
+
+
+
+.nav>li>a:focus, .nav>li>a:hover{text-decoration: none;background-color: #dadada;}
+
+
+@media screen and (max-width: 768px) {
+.logomoi{max-width:150px;}
+.burger-menu div {
+    width: 19px;
+    height: 2px;
+    background-color: #b07c28;
+    margin: 4px 0;
+    position: relative;
+    top: 6px;
+}
+
+.img-certificate {
+    max-width: 60px;
+    position: relative;
+    top: -60px;
+    left: 0;
+}
+
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    color: #b07c28;
+    background-color: inherit;
+     padding:0px 5px;
+    margin-top: 20px;
+    
+}
+}

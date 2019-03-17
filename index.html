@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container header-content">
+           <div class="row">
+               <div class="col-md-8 col-xs-12">
+                   <div class="burger-menu" onclick="openNav()" >
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                   </div>
+                   <!--<span class="burger-menu" onclick="openNav()">&#9776;</span>-->
+                   <img class="logomoi" src="images/logoMOI.png" />
+
+               </div>
+               <div class="col-md-4 col-xs-12">
+                   <div class="sidebar-left">
+                       <a class="lang">EN</a> 
+                       <a><i class="fa fa-magic"></i></a>
+                       <a onclick="fullscreen()"><i class="fas fa-expand"></i></a>
+                       <div class="dropdown">
+                           <button class="dropbtn">
+                               <i class="fas fa-user-circle user-icon"></i>   اهلا علي  
+                               <i class="fa fa-caret-down caretdown"></i>
+                           </button>
+                           <div class="dropdown-content">
+                               <a href="#">Link 1</a>
+                               <a href="#">Link 2</a>
+                               <a href="#">Link 3</a>
+                           </div>
+                       </div> 
+                   </div>
+
+               </div>
+
+           </div>
+
+        
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-2 remainder-date-title">
+                    
+                        <p> الوقت المتبقي</p>
+
+                   
+                </div>
+                <div class="col-md-10 remainder-date-desc">
+                   <img class="img-certificate" src="images/certifacate.png"/>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container tabs-container">
+
+  
+            <ul class="nav nav-tabs row">
+                <li class="active col-md-4 col-xs-12"><a class="item1" data-toggle="tab" href="#myTask">  
+                    <div class="clearfix">
+                        <div class="pull-right contents-tabs">
+                            <span class="number counter"> 03</span>
+                            <br />
+                            <span class="title"> مهامي </span>
+                        </div>
+                        <div class="pull-left">
+                            <img class="logo-tab" src="images/mytaskLogo.png"/>
+                        </div>
+
+                    </div>
+                    </a></li>
+                <li class="col-md-4 col-xs-12"><a class="item2" data-toggle="tab" href="#myNotifactions">
+                                         <div class="clearfix">
+                                             <div class="pull-right contents-tabs">
+                                                 <span class="number counter"> 13</span>
+                                                 <br />
+                                                 <span class="title"> اشعاراتي </span>
+                                             </div>
+                                             <div class="pull-left">
+                                                 <img class="logo-tab" src="images/mynotiLogo.png" />
+                                             </div>
+
+                                         </div> </a></li>
+
+                <li class="col-md-4 col-xs-12">
+                <a class="item3" data-toggle="tab" href="#myCalender"><div class="clearfix">
+    <div class="pull-right contents-tabs">
+        <span class="number counter"> 0</span>
+        <br />
+        <span class="title"> رزنامتي </span>
+    </div>
+    <div class="pull-left">
+        <img class="logo-tab" src="images/mycaleLogo.png" />
+    </div>
+
+</div></a></li>
+               
+            </ul>
+
+            <div class="tab-content">
+                <div id="myTask" class="tab-pane fade in active">
+                   <div class="user-information">
+                       <div class="row">
+                           <div class="col-md-10 details-info">
+                               <h3> مدير عام</h3>
+                               <br />
+                               <span class="section-name"> دائرة الموارد البشرية</span>
+                               <p> الرجاء القيام باعداد التقارير المستقل التجربة عن الموسسة </p>
+
+                           </div>
+                           <div class="col-md-2 date-info">
+                               <span class="date"> 19 - 05 - 2018</span>
+                           </div>
+
+                       </div>
+
+                   </div>
+                    <div class="user-information">
+                        <div class="row">
+                            <div class="col-md-10 details-info">
+                                <h3> مدير عام</h3>
+                                <br />
+                                <span class="section-name"> دائرة الموارد البشرية</span>
+                                <p> الرجاء القيام باعداد التقارير المستقل التجربة عن الموسسة </p>
+
+                            </div>
+                            <div class="col-md-2 date-info">
+                                <span class="date"> 19 - 05 - 2018</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="user-information">
+                        <div class="row">
+                            <div class="col-md-10 details-info">
+                                <h3> مدير عام</h3>
+                                <br />
+                                <span class="section-name"> دائرة الموارد البشرية</span>
+                                <p> الرجاء القيام باعداد التقارير المستقل التجربة عن الموسسة </p>
+
+                            </div>
+                            <div class="col-md-2 date-info">
+                                <span class="date"> 19 - 05 - 2018</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="myNotifactions" class="tab-pane fade">
+                    <div class="user-information">
+                        <div class="row">
+                            <div class="col-md-10 details-info"></div>
+                            <div class="col-md-2 date-info"></div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="myCalender" class="tab-pane fade">
+                    <div class="user-information">
+                        <div class="row">
+                            <div class="col-md-10 details-info"></div>
+                            <div class="col-md-2 date-info"></div>
+
+                        </div>
+
+                    </div>  </div>
+           
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
